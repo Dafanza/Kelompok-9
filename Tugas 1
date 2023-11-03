@@ -1,1 +1,29 @@
+# Inisialisasi harga
+harga_pizza = 43000
+harga_crust = 0
+harga_ukuran = 0
+harga_cheese = 0
+total_biaya = 0
 
+print("Selamat datang di Pizza Hut!")
+
+while True:
+    print("\nDaftar Menu Pizza:")
+    print("1. Frankfurter BBQ")
+    print("2. Meat Monst")
+    print("3. Super Supreme")
+    print("4. Super Supreme Chicken")
+
+    pilihan_menu = int(input("Pilih jenis pizza (1-4): ")
+
+    if pilihan_menu == 1:
+        nama_pizza = "Frankfurter BBQ"
+    elif pilihan_menu == 2:
+        nama_pizza = "Meat Monst"
+    elif pilihan_menu == 3:
+        nama_pizza = "Super Supreme"
+    elif pilihan_menu == 4:
+        nama_pizza = "Super Supreme Chicken"
+    else:
+        print("Pilihan tidak valid. Silakan pilih lagi.")
+        continue
