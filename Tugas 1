@@ -27,3 +27,32 @@ while True:
     else:
         print("Pilihan tidak valid. Silakan pilih lagi.")
         continue
+
+    print("\nDaftar Crust:")
+    print("1. Pan")
+    print("2. Cheesy beats")
+    print("3. Stuffed")
+    print("4. Crown")
+
+    pilihan_crust = int(input("Pilih jenis crust (1-4): "))
+
+    if pilihan_crust == 1:
+        nama_crust = "Pan"
+        harga_crust = 5000
+    elif pilihan_crust == 2:
+        nama_crust = "Cheesy beats"
+        harga_crust = 7000
+    elif pilihan_crust == 3:
+        nama_crust = "Stuffed"
+        harga_crust = 10000
+    elif pilihan_crust == 4:
+        nama_crust = "Crown"
+        harga_crust = 12000
+    else:
+        print("Pilihan tidak valid. Silakan pilih lagi.")
+        continue
+
+    print("\nDaftar Ukuran Pizza:")
+    print("1. Large")
+    print("2. Medium")
+    print("3. Personal")
