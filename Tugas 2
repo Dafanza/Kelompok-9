@@ -53,3 +53,67 @@ move()
 move()
 jump()
 jump()
+
+#Hurdle 4 
+
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+def jump():
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
+    
+def lompat():
+    turn_left()
+    move()
+    move()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    move()
+    move()
+    turn_left()
+    
+def turun():
+    turn_left()
+    move()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    move()
+    turn_left()
+    
+jump()
+lompat()
+move()
+lompat()
+move()
+move()
+turun()
+lompat()
+jump()
+jump()
+move()
+turun()
+
+#Maze
+
+while not at_goal():
+    if right_is_clear():
+        turn_right()
+        move()
+    elif front_is_clear():
+        move()
+    else:
+        turn_left()
